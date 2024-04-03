@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\PM_service\PM_host\obj\Debug\PM_host.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\PM_service\PM_host\obj\Debug\PM_host.Form1.resources
+C:\Users\HP\source\repos\PM_service\PM_host\obj\Debug\PM_host.Properties.Resources.resources
+C:\Users\HP\source\repos\PM_service\PM_host\obj\Debug\PM_host.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\PM_service\PM_host\obj\Debug\PM_host.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\PM_service\PM_host\bin\Debug\PM_host.exe.config
+C:\Users\HP\source\repos\PM_service\PM_host\bin\Debug\PM_host.exe
+C:\Users\HP\source\repos\PM_service\PM_host\bin\Debug\PM_host.pdb
+C:\Users\HP\source\repos\PM_service\PM_host\bin\Debug\PM_service.dll
+C:\Users\HP\source\repos\PM_service\PM_host\bin\Debug\PM_service.pdb
+C:\Users\HP\source\repos\PM_service\PM_host\bin\Debug\PM_service.dll.config
+C:\Users\HP\source\repos\PM_service\PM_host\obj\Debug\PM_host.csproj.CopyComplete
+C:\Users\HP\source\repos\PM_service\PM_host\obj\Debug\PM_host.exe
+C:\Users\HP\source\repos\PM_service\PM_host\obj\Debug\PM_host.pdb

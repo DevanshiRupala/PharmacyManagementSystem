@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\PM_service\PM_service\bin\Debug\PM_service.dll.config
+C:\Users\HP\source\repos\PM_service\PM_service\bin\Debug\PM_service.dll
+C:\Users\HP\source\repos\PM_service\PM_service\bin\Debug\PM_service.pdb
+C:\Users\HP\source\repos\PM_service\PM_service\obj\Debug\PM_service.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\PM_service\PM_service\obj\Debug\PM_service.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\PM_service\PM_service\obj\Debug\PM_service.dll
+C:\Users\HP\source\repos\PM_service\PM_service\obj\Debug\PM_service.pdb

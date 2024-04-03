@@ -1,0 +1,17 @@
+C:\Users\HP\source\repos\PM_service\PM_client\bin\Debug\PM_client.exe
+C:\Users\HP\source\repos\PM_service\PM_client\bin\Debug\PM_client.exe.config
+C:\Users\HP\source\repos\PM_service\PM_client\obj\Debug\PM_client.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\PM_service\PM_client\obj\Debug\PM_client.Form1.resources
+C:\Users\HP\source\repos\PM_service\PM_client\obj\Debug\PM_client.Home.resources
+C:\Users\HP\source\repos\PM_service\PM_client\obj\Debug\PM_client.Properties.Resources.resources
+C:\Users\HP\source\repos\PM_service\PM_client\obj\Debug\PM_client.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\PM_service\PM_client\obj\Debug\PM_client.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\PM_service\PM_client\obj\Debug\PM_client.exe
+C:\Users\HP\source\repos\PM_service\PM_client\obj\Debug\PM_client.pdb
+C:\Users\HP\source\repos\PM_service\PM_client\bin\Debug\PM_client.pdb
+C:\Users\HP\source\repos\PM_service\PM_client\obj\Debug\PM_client.AddMedicine.resources
+C:\Users\HP\source\repos\PM_service\PM_client\obj\Debug\PM_client.UpdateMedicineForm.resources
+C:\Users\HP\source\repos\PM_service\PM_client\obj\Debug\PM_client.PurchasePage.resources
+C:\Users\HP\source\repos\PM_service\PM_client\obj\Debug\PM_client.ShowPurchase.resources
+C:\Users\HP\source\repos\PM_service\PM_client\obj\Debug\PM_client.ShowMedicines.resources
+C:\Users\HP\source\repos\PM_service\PM_client\obj\Debug\PM_client.Dashboard.resources

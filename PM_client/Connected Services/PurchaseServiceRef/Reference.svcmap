@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="6474a5f6-7d1d-40c3-9bb9-2ad38937090a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:8735/PurchaseService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="a68d7f4f-a041-45b7-b537-7078ed37edba" SourceId="1" SourceUrl="net.tcp://localhost:8735/PurchaseService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="73ae4fde-182a-4651-a38b-460a06435e69" SourceId="1" SourceUrl="net.tcp://localhost:8735/PurchaseService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="9bd469a8-dc5f-4f06-870c-ee190ec0d51a" SourceId="1" SourceUrl="net.tcp://localhost:8735/PurchaseService/mex" />
+    <MetadataFile FileName="PM_service.xsd" MetadataType="Schema" ID="f6880553-186a-4457-b621-51d93fbaf9be" SourceId="1" SourceUrl="net.tcp://localhost:8735/PurchaseService/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="877e5045-0203-40f4-965f-4afba8c975c5" SourceId="1" SourceUrl="net.tcp://localhost:8735/PurchaseService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

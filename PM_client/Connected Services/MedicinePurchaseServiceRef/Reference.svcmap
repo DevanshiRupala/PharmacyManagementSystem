@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="70f74b22-b0d7-4c4c-9c83-b7c0ba3308a0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:8734/MedicinePurchaseService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="1c9784a7-4898-48bd-ad33-f2939b97fc61" SourceId="1" SourceUrl="net.tcp://localhost:8734/MedicinePurchaseService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="55a5b719-4896-463a-8151-80f4990337ed" SourceId="1" SourceUrl="net.tcp://localhost:8734/MedicinePurchaseService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="026a6b51-48a4-4330-bba3-a55eab15e790" SourceId="1" SourceUrl="net.tcp://localhost:8734/MedicinePurchaseService/mex" />
+    <MetadataFile FileName="PM_service.xsd" MetadataType="Schema" ID="9d97f249-f255-4480-a686-4c14fbc4fbb2" SourceId="1" SourceUrl="net.tcp://localhost:8734/MedicinePurchaseService/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="f979457c-d3ac-4abd-a4a7-1d1371cbcc04" SourceId="1" SourceUrl="net.tcp://localhost:8734/MedicinePurchaseService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

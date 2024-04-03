@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="MedicineService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/PM_service" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IMedicine_GetMedicines_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMedicines" />
+  </wsdl:message>
+  <wsdl:message name="IMedicine_GetMedicines_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMedicinesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMedicine_AddMedicines_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddMedicines" />
+  </wsdl:message>
+  <wsdl:message name="IMedicine_AddMedicines_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddMedicinesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMedicine_DeleteMedicine_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMedicine" />
+  </wsdl:message>
+  <wsdl:message name="IMedicine_DeleteMedicine_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMedicineResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMedicine_UpdateMedicine_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMedicine" />
+  </wsdl:message>
+  <wsdl:message name="IMedicine_UpdateMedicine_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMedicineResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMedicine_GetMedicine_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMedicine" />
+  </wsdl:message>
+  <wsdl:message name="IMedicine_GetMedicine_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMedicineResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMedicine_GetMedicineByName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMedicineByName" />
+  </wsdl:message>
+  <wsdl:message name="IMedicine_GetMedicineByName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMedicineByNameResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IMedicine">
+    <wsdl:operation name="GetMedicines">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMedicine/GetMedicines" message="tns:IMedicine_GetMedicines_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMedicine/GetMedicinesResponse" message="tns:IMedicine_GetMedicines_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddMedicines">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMedicine/AddMedicines" message="tns:IMedicine_AddMedicines_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMedicine/AddMedicinesResponse" message="tns:IMedicine_AddMedicines_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMedicine">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMedicine/DeleteMedicine" message="tns:IMedicine_DeleteMedicine_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMedicine/DeleteMedicineResponse" message="tns:IMedicine_DeleteMedicine_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMedicine">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMedicine/UpdateMedicine" message="tns:IMedicine_UpdateMedicine_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMedicine/UpdateMedicineResponse" message="tns:IMedicine_UpdateMedicine_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMedicine">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMedicine/GetMedicine" message="tns:IMedicine_GetMedicine_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMedicine/GetMedicineResponse" message="tns:IMedicine_GetMedicine_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMedicineByName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMedicine/GetMedicineByName" message="tns:IMedicine_GetMedicineByName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMedicine/GetMedicineByNameResponse" message="tns:IMedicine_GetMedicineByName_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IMedicine" type="tns:IMedicine">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMedicines">
+      <soap:operation soapAction="http://tempuri.org/IMedicine/GetMedicines" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddMedicines">
+      <soap:operation soapAction="http://tempuri.org/IMedicine/AddMedicines" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMedicine">
+      <soap:operation soapAction="http://tempuri.org/IMedicine/DeleteMedicine" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMedicine">
+      <soap:operation soapAction="http://tempuri.org/IMedicine/UpdateMedicine" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMedicine">
+      <soap:operation soapAction="http://tempuri.org/IMedicine/GetMedicine" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMedicineByName">
+      <soap:operation soapAction="http://tempuri.org/IMedicine/GetMedicineByName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MedicineService">
+    <wsdl:port name="BasicHttpBinding_IMedicine" binding="tns:BasicHttpBinding_IMedicine">
+      <soap:address location="http://localhost:8733/MedicineService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

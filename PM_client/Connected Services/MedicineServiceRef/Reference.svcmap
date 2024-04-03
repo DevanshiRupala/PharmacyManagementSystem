@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="2372e208-538f-4237-b6f1-c92a80f7269d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/MedicineService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="8026ce16-0c3c-4b1e-be77-d75df704efc9" SourceId="1" SourceUrl="http://localhost:8733/MedicineService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="cfd4674c-642e-4a65-baa3-77f5b7aff9db" SourceId="1" SourceUrl="http://localhost:8733/MedicineService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="a614bff6-048f-497a-a282-612578bbaafc" SourceId="1" SourceUrl="http://localhost:8733/MedicineService/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="98580efe-5c8f-481f-81be-30a4c9cc9a40" SourceId="1" SourceUrl="http://localhost:8733/MedicineService/mex" />
+    <MetadataFile FileName="PM_service.xsd" MetadataType="Schema" ID="a7581f34-83bf-4925-b30d-4de20450c48b" SourceId="1" SourceUrl="http://localhost:8733/MedicineService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
